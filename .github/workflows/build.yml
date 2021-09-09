@@ -29,7 +29,7 @@ jobs:
           cache-prefix: v1-${{ matrix.os }}
 
       - name: Install OCaml deps
-        run: opam update && opam install . --jobs 1 --deps-only --with-doc --with-test
+        run: opam install . --jobs 1 --deps-only --with-doc --with-test
 
       - name: Build (Ubuntu)
         run: opam exec -- dune build -j 1
