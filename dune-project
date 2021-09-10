@@ -5,4 +5,5 @@
 (package
  (name hello)
  (depends
-  (core_kernel (= "v0.14.1"))))
+  (core_kernel (= "v0.14.1"))
+  (ppx_optcomp (= "v0.14.2"))))
