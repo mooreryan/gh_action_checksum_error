@@ -4,4 +4,5 @@
 
 (package
  (name hello)
- (depends core_kernel))
+ (depends
+  (core_kernel (= "v0.14.1"))))
